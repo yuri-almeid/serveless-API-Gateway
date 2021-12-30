@@ -10,11 +10,16 @@ provider:
   runtime: nodejs12.x
   memorySize: 256
   stage: ${opt:stage, 'dev'}
+  region: us-east-2
   
 functions:
-  hello:
-    handler: src/handlers/hello.handler
+  openDoor:
+    handler: src/handlers/openDoor.handler
     events:
       - http:
-          method: GET
-          path: /hello
+          method: POST
+          path: /openDoor
+
+custom:
+  bundle:
+    linting: false
