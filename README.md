@@ -1,4 +1,4 @@
-# Codingly.io: Base Serverless Framework Template
+# API-Gateway!
 
 https://codingly.io
 
@@ -15,3 +15,15 @@ npm install
 ```
 
 You are ready to go!
+
+## Deploying
+```
+sls deploy --verbose
+```
+## Remove a stack
+```
+sls remove --verbose
+```
+
+S
+
