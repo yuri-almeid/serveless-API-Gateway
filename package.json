@@ -2,7 +2,7 @@
   "name": "serveless-API-Gateway",
   "version": "1.0.0",
   "description": "Codingly template for Serverless Framework projects",
-  "author": "Ariel Weinberger <ariel@codingly.io>",
+  "author": "Yuri Almeida <yurilima95@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.25.0",
