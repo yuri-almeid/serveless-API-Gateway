@@ -14,4 +14,14 @@ cd YOUR_PROJECT_NAME
 npm install
 ```
 
-You are ready to go!
+## Deploying
+```
+sls deploy --verbose
+
+sls deploy -f FUNCTION --verbose
+```
+
+## Remove stack
+```
+sls remove --verbose
+```

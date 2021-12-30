@@ -11,10 +11,13 @@ async function openDoor(event, context) {
     //     "lon": 21.0122287,
     //     "access": 1
     // }
+
+    const user = JSON.parse(event.body);
+
     
     return {
       statusCode: 200,
-      body: JSON.stringify({ event, context }),
+      body: JSON.stringify({ user }),
     };
   }
 

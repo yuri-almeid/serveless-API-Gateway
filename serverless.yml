@@ -19,6 +19,12 @@ functions:
       - http:
           method: POST
           path: /openDoor
+  kin:
+    handler: src/handlers/kin.handler
+    events:
+      - http:
+          method: POST
+          path: /kin
 
 custom:
   bundle:
